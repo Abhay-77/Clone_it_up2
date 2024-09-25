@@ -1,0 +1,56 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@font-face {
+    font-family: Zona-Bold;
+    src: url(./app.js/ZonaPro-Bold.otf);
+}
+@font-face {
+    font-family: Zona-Light;
+    src: url(./app.js/ZonaPro-ExtraLight.otf);
+}
+.htmlcard-clr{
+    background: rgb(245,128,31);
+    background: linear-gradient(90deg, rgba(245,128,31,1) 50%, rgba(253,45,91,1) 50%);
+}
+.csscard-clr{
+    background: rgb(14,190,227);
+    background: linear-gradient(90deg, rgba(14,190,227,1) 50%, rgba(58,64,218,1) 50%);
+}
+.jscard-clr{
+    background: rgb(49,58,60);
+    background: linear-gradient(90deg, rgba(49,58,60,1) 50%, rgba(227,231,42,1) 50%);
+}
+.heading{
+    font-size: 20px;
+    line-height: 24px;
+}
+.body{
+    font-size: 14px;
+    line-height: 20px;
+}
+.lLarge{
+    font-size: 16px;
+    line-height: 24px;
+}
+.lMedium{
+    font-size: 14px;
+    line-height: 20px;
+}
+.lSmall{
+    font-size: 12px;
+    line-height: 20px;
+}
+.lXsmall{
+    font-size: 10px;
+    line-height: 12px;
+}
+.card{
+    @apply flex justify-evenly ;
+}
+/* .card-img{
+    @apply h-1/6;
+} */
+ .shadow-item{
+    box-shadow: 0px 1px 0px #868686;
+ }
